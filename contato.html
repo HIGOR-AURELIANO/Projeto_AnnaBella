@@ -12,33 +12,53 @@
 <body>
     <div id="principal">
         <img src="imagens/capa.png" alt="">
-    </div>
-    <div id="menu">
-        <a href="index.html">HOME</a> |
-        <a href="biografia.html">BIOGRAFIA</a> |
-        <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a> |
-        <a href="contato.html">CONTATO</a>
-    </div>
 
-    <div id="conteudo">
-        <h1>Contato</h1>
+        <div id="menu">
+            <a href="index.html">HOME</a>
+            <a href="biografia.html">BIOGRAFIA</a>
+            <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a>
+            <a href="contato.html">CONTATO</a>
+        </div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In deleniti, voluptate velit omnis natus mollitia
-            repudiandae modi fuga magnam culpa temporibus voluptates aliquid nostrum eos aut explicabo nesciunt
-            consequatur ad!</p>
+        <div id="conteudo">
+            <h1>Contato</h1>
 
-            <img src="imagens/foto1.png" class="img-campanha" alt="Foto1">
+            <p>
+                Interessado em parcerias, editoriais ou projetos comerciais? Entre em contato diretamente com a nossa
+                equipe ou utilize o formulário abaixo.
+            </p>
+
+            <img src="imagens/foto1.png" class="img-campanha" alt="Anna Bella">
             
-            <div>
-                <strong>E-mail</strong>:contato@annabella.com.br <br>
-                <strong>Telefone:</strong>(11)99978-5566
+            <div class="info-contato">
+                <strong>E-mail:</strong> contato@annabella.com.br <br>
+                <strong>Telefone:</strong> (11) 99978-5566
             </div>
-        
 
+            <div id="formulario-contato">
+                <h2>Envie uma mensagem</h2>
+                <form action="#">
+                    <div class="campo">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+                    </div>
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="rodape">
+            <h4 class="alinhamento">Todos Os Direitos Reservados</h4>
+        </div>
     </div>
-
-    <div id="rodape"> <h4 class="alinhamento">Todos Os Direitos Reservados</h4></div>
 </body>
 
 </html>

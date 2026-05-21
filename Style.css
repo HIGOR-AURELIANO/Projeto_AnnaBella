@@ -4,7 +4,7 @@ body{
 }
 #principal{
     width: 900px;
-    
+    margin: auto;
 }
 #menu{
     background: #c5c5b2;
@@ -20,6 +20,7 @@ body{
 }
 .img-campanha{
     border: 10px solid #c3c3ae;
+    margin-bottom: 20px;
 }
 .alinhamento{
     text-align: center;

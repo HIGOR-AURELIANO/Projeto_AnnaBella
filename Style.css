@@ -35,6 +35,11 @@ body {
     color: #fff;
 }
 
+#menu a:focus-visible {
+    outline: 3px solid #4b566a;
+    outline-offset: 2px;
+}
+
 #conteudo {
     background: #e8e8d9;
     padding: 30px;
@@ -118,4 +123,14 @@ body {
 
 .btn-enviar:hover {
     background-color: #4b566a;
+}
+
+.btn-enviar:focus-visible {
+    outline: 3px solid #828271;
+    outline-offset: 2px;
+}
+
+.campo input:focus-visible, .campo textarea:focus-visible {
+    outline: 2px solid #828271;
+    border-color: #828271;
 }

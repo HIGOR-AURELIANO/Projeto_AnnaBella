@@ -7,10 +7,16 @@ body {
 }
 
 #principal {
-    width: 900px;
+    max-width: 900px;
+    width: 95%;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 #menu {
@@ -30,7 +36,8 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover,
+#menu a[aria-current="page"] {
     background-color: #828271;
     color: #fff;
 }

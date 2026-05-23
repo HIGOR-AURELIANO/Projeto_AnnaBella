@@ -11,14 +11,14 @@
 
 <body>
     <div id="principal">
-        <img src="imagens/capa.png" alt="">
+        <img src="imagens/capa.png" alt="Anna Bella - Modelo">
 
-        <div id="menu">
+        <nav id="menu">
             <a href="index.html">HOME</a>
             <a href="biografia.html">BIOGRAFIA</a>
             <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a>
-            <a href="contato.html">CONTATO</a>
-        </div>
+            <a href="contato.html" aria-current="page">CONTATO</a>
+        </nav>
 
         <div id="conteudo">
             <h1>Contato</h1>
@@ -40,15 +40,15 @@
                 <form action="#">
                     <div class="campo">
                         <label for="nome">Nome:</label><br>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
                     </div>
                     <div class="campo">
                         <label for="email">E-mail:</label><br>
-                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
                     </div>
                     <div class="campo">
                         <label for="mensagem">Mensagem:</label><br>
-                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
                     </div>
                     <button type="submit" class="btn-enviar">Enviar Mensagem</button>
                 </form>

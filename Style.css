@@ -7,7 +7,8 @@ body {
 }
 
 #principal {
-    width: 900px;
+    max-width: 900px;
+    width: 95%;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,9 +31,14 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active {
     background-color: #828271;
     color: #fff;
+}
+
+:focus-visible {
+    outline: 2px solid #4b566a;
+    outline-offset: 2px;
 }
 
 #conteudo {
@@ -93,6 +99,10 @@ body {
 
 .campo {
     margin-bottom: 15px;
+}
+
+.required {
+    color: red;
 }
 
 .campo input, .campo textarea {

@@ -30,7 +30,7 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active {
     background-color: #828271;
     color: #fff;
 }
@@ -118,4 +118,9 @@ body {
 
 .btn-enviar:hover {
     background-color: #4b566a;
+}
+
+.required {
+    color: #cc0000;
+    font-weight: bold;
 }

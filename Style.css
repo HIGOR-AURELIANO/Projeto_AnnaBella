@@ -30,9 +30,17 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active {
     background-color: #828271;
     color: #fff;
+}
+
+#menu a:focus-visible,
+.campo input:focus-visible,
+.campo textarea:focus-visible,
+.btn-enviar:focus-visible {
+    outline: 2px solid #4b566a;
+    outline-offset: 2px;
 }
 
 #conteudo {
@@ -118,4 +126,9 @@ body {
 
 .btn-enviar:hover {
     background-color: #4b566a;
+}
+
+.required {
+    color: #d9534f;
+    margin-left: 2px;
 }

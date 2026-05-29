@@ -1,0 +1,3 @@
+## 2025-05-15 - Navigation and Form Accessibility Improvements
+**Learning:** Users often struggle to identify their current location in a static multi-page site without templating. Implementing explicit active states and `aria-current="page"` significantly improves both visual and screen-reader navigation. Additionally, visual cues like red asterisks for required fields must be paired with the functional `required` attribute for a complete accessible experience.
+**Action:** Always implement `aria-current="page"` and a corresponding `.active` class for navigation menus, and ensure form validation is both visual and functional.

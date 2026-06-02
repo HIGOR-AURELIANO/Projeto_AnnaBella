@@ -11,13 +11,13 @@
 
 <body>
     <div id="principal">
-        <img src="imagens/capa.png" alt="">
+        <img src="imagens/capa.png" alt="Anna Bella Oficial">
 
         <div id="menu">
             <a href="index.html">HOME</a>
             <a href="biografia.html">BIOGRAFIA</a>
             <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a>
-            <a href="contato.html">CONTATO</a>
+            <a href="contato.html" class="active" aria-current="page">CONTATO</a>
         </div>
 
         <div id="conteudo">
@@ -39,16 +39,16 @@
                 <h2>Envie uma mensagem</h2>
                 <form action="#">
                     <div class="campo">
-                        <label for="nome">Nome:</label><br>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                        <label for="nome">Nome: <span class="required">*</span></label><br>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
                     </div>
                     <div class="campo">
-                        <label for="email">E-mail:</label><br>
-                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+                        <label for="email">E-mail: <span class="required">*</span></label><br>
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
                     </div>
                     <div class="campo">
-                        <label for="mensagem">Mensagem:</label><br>
-                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?"></textarea>
+                        <label for="mensagem">Mensagem: <span class="required">*</span></label><br>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?" required></textarea>
                     </div>
                     <button type="submit" class="btn-enviar">Enviar Mensagem</button>
                 </form>

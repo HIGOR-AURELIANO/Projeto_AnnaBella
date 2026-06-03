@@ -30,9 +30,14 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active {
     background-color: #828271;
     color: #fff;
+}
+
+:focus-visible {
+    outline: 2px solid #8e8e71;
+    outline-offset: 2px;
 }
 
 #conteudo {
@@ -93,6 +98,12 @@ body {
 
 .campo {
     margin-bottom: 15px;
+}
+
+.required {
+    color: #cc0000;
+    font-weight: bold;
+    margin-left: 2px;
 }
 
 .campo input, .campo textarea {

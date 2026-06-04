@@ -1,0 +1,3 @@
+## 2024-11-20 - Navigation Accessibility and Visual Feedback
+**Learning:** In static HTML projects without a templating system, visual and semantic cues for navigation (like active states and focus indicators) are often overlooked. Using `aria-current="page"` combined with CSS `:focus-visible` provides a robust, accessible way to indicate the user's location and focus without relying on JavaScript or heavy frameworks.
+**Action:** Always check for `aria-current` on navigation links and ensure `:focus-visible` is styled to provide high-visibility feedback for keyboard users, especially in simple static sites.

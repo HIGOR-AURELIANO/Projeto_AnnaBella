@@ -1,0 +1,3 @@
+## 2026-06-06 - Initial UX and Accessibility Audit
+**Learning:** The website lacks semantic navigation (uses `div#menu` instead of `<nav>`) and does not provide visual or programmatic feedback for the current page location, which can disorient users and hinder screen reader navigation. Additionally, focus states for keyboard users are not explicitly styled, relying on inconsistent browser defaults.
+**Action:** Replace generic containers with semantic HTML5 tags, implement an `.active` class with `aria-current="page"` for navigation links, and define high-visibility `:focus-visible` styles across all interactive elements.

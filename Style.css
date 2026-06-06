@@ -30,7 +30,22 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover,
+#menu a.active {
+    background-color: #828271;
+    color: #fff;
+}
+
+/* Melhora a acessibilidade do teclado */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #828271;
+    outline-offset: 2px;
+}
+
+#menu a:focus-visible {
     background-color: #828271;
     color: #fff;
 }

@@ -30,9 +30,11 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover, #menu a.active, #menu a:focus-visible {
     background-color: #828271;
     color: #fff;
+    outline: 2px solid #4b566a;
+    outline-offset: 2px;
 }
 
 #conteudo {

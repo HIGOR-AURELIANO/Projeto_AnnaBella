@@ -1,0 +1,3 @@
+## 2026-06-11 - Semantic Navigation and Keyboard Visibility
+**Learning:** In static multi-page projects without a templating system, navigation state (visual `.active` and semantic `aria-current="page"`) must be manually synchronized across all pages to prevent "lost" users. High-contrast focus rings using `:focus-visible` are essential for accessibility in minimalist color palettes where default outlines may blend in.
+**Action:** When working with decentralized navigation, use `grep` or multi-file search to ensure consistency and always pair visual active states with ARIA equivalents for screen reader parity.

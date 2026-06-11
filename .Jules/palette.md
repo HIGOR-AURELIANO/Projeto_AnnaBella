@@ -1,0 +1,3 @@
+## 2026-06-11 - Navigation Feedback and Keyboard Accessibility
+**Learning:** In static multi-page sites without a common header template, users can easily lose track of their current location. Pairing a visual `.active` state with the semantic `aria-current="page"` attribute ensures orientation for all users. Additionally, browser-default focus states are often too subtle for high-contrast or specialized backgrounds, requiring explicit `focus-visible` styling to maintain keyboard accessibility.
+**Action:** Always synchronize navigation states across all static files and use `aria-current` to provide programmatic context to assistive technologies.

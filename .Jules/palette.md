@@ -1,0 +1,3 @@
+## 2026-06-11 - Navigation Orientation and Keyboard Visibility
+**Learning:** In static multi-page sites without a common templating engine, users often lose context of their location because the navigation menu looks identical on every page. Additionally, default browser focus rings are often subtle or inconsistent with the site's design, hindering keyboard navigation.
+**Action:** Always implement a visual `.active` state and semantic `aria-current="page"` attribute for the current page link. Complement this with custom `:focus-visible` styles that provide high-contrast feedback for keyboard users without affecting mouse interactions.

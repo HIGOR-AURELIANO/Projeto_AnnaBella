@@ -30,7 +30,8 @@ body {
     border-radius: 4px;
 }
 
-#menu a:hover {
+#menu a:hover,
+#menu a.active {
     background-color: #828271;
     color: #fff;
 }
